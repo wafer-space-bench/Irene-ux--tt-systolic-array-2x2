@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/Irene-ux/tt-systolic-array-2x2
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26a
+  slot: tt_um_systolic_mac_2x2
+  project: 2x2 Systolic Array Matrix Multiplier
+  size: 1x1
+  kind: digital (Verilog)
+  commit: f4e85631e9f162d713a2dfffb4fdfb2569c99f8d
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26a/tt_um_systolic_mac_2x2
+  branch: tapeout/tinytapeout/ttgf26a/tt_um_systolic_mac_2x2
+  page: https://app.tinytapeout.com/shuttles/ttgf26a
+generated: '2026-10-17T23:51:39Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26a/tt_um_systolic_mac_2x2
+- upstream/main
